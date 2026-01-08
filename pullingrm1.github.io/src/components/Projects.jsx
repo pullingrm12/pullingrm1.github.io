@@ -12,10 +12,9 @@ function Projects() {
               the Cooperative Institute for Research to Operations in Hydrology
               (CIROH). The project aims to develop a differentiable routing
               component that integrates with LSTM models in the Next Generation
-              Water Modeling Framework (NextGen). This work supports the
-              Multi-Model Mosaic project, which seeks to improve the accuracy of
-              hydrological modeling by combining process-based and machine
-              learning approaches into an ensemble system.
+              Water Modeling Framework (NextGen). I am currently working on
+              integrating ML emulators into production pipelines and modularized
+              codebase to support evolving hydrological models for CIROH.
             </p>
             <a href="https://docs.ciroh.org/" className="button">
               Learn more about CIROH
@@ -42,12 +41,54 @@ function Projects() {
             </a>
           </div>
           <div style={styles.skill}>
-            <h3>NBA MVP Analysis</h3>
-            <p></p>
+            <h3>Volleyball Motion Tracking</h3>
+            <p>
+              I designed a motion-tracking model for volleyball match videos to
+              extract player movement data. I then applied ML techniques to
+              analyze player patterns and support predictive modeling of plays.
+            </p>
+            <a
+              href="https://github.com/pullingrm12/vball_motion_tracking"
+              className="button"
+            >
+              Learn More about Volleyball Motion Tracking
+            </a>
           </div>
           <div style={styles.skill}>
-            <h3></h3>
-            <p></p>
+            <h3>Student Dropout Predicter</h3>
+            <p>
+              Built and evaluated multiple ML models (Random Forest, XGBoost,
+              Logistic Regression) to predict dropout Risk with ~88% accuracy.
+              The project exists as an experiment for various ML techniques.
+            </p>
+            <a
+              href="https://github.com/pullingrm12/student_dropout_prediction"
+              className="button"
+            >
+              Learn More about Studen Dropout Analysis
+            </a>
+          </div>
+          <div style={styles.skill}>
+            <h3>PID Neural Network Controller</h3>
+            <p>
+              Coded a neural network from scratch in C to optimize a PID
+              controller, demonstrating cross-disciplinary control-system
+              learning. This project was part of my autonomous robotics course.
+              That being said, the code is not currently hosted on GitHub.
+            </p>
+          </div>
+          <div style={styles.skill}>
+            <h3>The Banalyst</h3>
+            <p>
+              Built a full-stack movie analytics web app using React, Node.js,
+              Express, and MongoDB for browsing films, profiles, and reviews.
+            </p>
+            <a
+              href="https://github.com/bbmcmann/307MovieProject"
+              className="button"
+            >
+              Learn More about The Banalyst
+            </a>
           </div>
         </div>
       </div>

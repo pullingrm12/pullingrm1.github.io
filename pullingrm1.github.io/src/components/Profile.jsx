@@ -7,7 +7,7 @@ function Profile() {
       <img src={profileImage} alt="Profile" style={styles.image} />
       <h1 style={styles.name}>Rhys Pulling</h1>
       <p style={styles.subtitle}>
-        Data Scientist | Problem Solver | Lifelong Learner
+        Data Scientist | M.S. Data Science | Machine Learning, Python, SQL
       </p>
     </section>
   );
